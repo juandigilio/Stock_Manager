@@ -23,4 +23,15 @@
       <UniqueIdentifier>{9f5fa50e-9517-4e7e-a857-76b6abb529da}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Clothes.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tool.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
