@@ -20,8 +20,28 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Clothes.h" />
+    <ClInclude Include="Src\Clothes\Bota.h" />
+    <ClInclude Include="Src\Clothes\Buzo.h" />
+    <ClInclude Include="Src\Clothes\Camisa.h" />
+    <ClInclude Include="Src\Clothes\Campera.h" />
+    <ClInclude Include="Src\Clothes\Casco.h" />
+    <ClInclude Include="Src\Clothes\Chaleco.h" />
+    <ClInclude Include="Src\Clothes\Chaqueta.h" />
+    <ClInclude Include="Src\Clothes\Delantal.h" />
+    <ClInclude Include="Src\Clothes\Guardapolvo.h" />
+    <ClInclude Include="Src\Clothes\Pantalon.h" />
+    <ClInclude Include="Src\Clothes\Remera.h" />
+    <ClInclude Include="Src\Clothes\ZapatoSeguridad.h" />
+    <ClInclude Include="Src\LlaveFija.h" />
     <ClInclude Include="Src\Object.h" />
     <ClInclude Include="Src\Tool.h" />
+    <ClInclude Include="Src\Tools\CombinadaImperial.h" />
+    <ClInclude Include="Src\Tools\CombinadaMetrica.h" />
+    <ClInclude Include="Src\Tools\FijaImperial.h" />
+    <ClInclude Include="Src\Tools\FijaMetrica.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -98,7 +118,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <TreatWarningAsError>true</TreatWarningAsError>
-      <AdditionalIncludeDirectories>$(SolutionDir)Lib\Raylib\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Lib\Raylib\include;$(SolutionDir)Src;$(SolutionDir)Src\Clothes;$(SolutionDir)Src\Tools</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -118,7 +138,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Lib\Raylib\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Lib\Raylib\include;$(SolutionDir)Src;$(SolutionDir)Src\Clothes;$(SolutionDir)Src\Tools</AdditionalIncludeDirectories>
       <TreatWarningAsError>true</TreatWarningAsError>
     </ClCompile>
     <Link>

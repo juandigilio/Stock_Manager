@@ -33,5 +33,61 @@
     <ClInclude Include="Src\Tool.h">
       <Filter>Header Files\Base</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Clothes\Bota.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Clothes\Buzo.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Clothes\Camisa.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Clothes\Campera.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Clothes\Casco.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Clothes\Chaleco.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Clothes\Chaqueta.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Clothes\Delantal.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Clothes\Guardapolvo.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Clothes\Pantalon.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Clothes\Remera.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Clothes\ZapatoSeguridad.h">
+      <Filter>Header Files\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\CombinadaImperial.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\CombinadaMetrica.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\FijaImperial.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\FijaMetrica.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\LlaveFija.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
