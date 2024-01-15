@@ -12,7 +12,7 @@ private:
 
 public:
 
-	Pantalon(string color, string size) : Clothes(color, size) { totalPantalones++; }
+	Pantalon(Date date, string color, string size) : Clothes(date, color, size) { totalPantalones++; }
 	~Pantalon() { totalPantalones--; }
 
 	int GetTotalPantalones() { return totalPantalones; }

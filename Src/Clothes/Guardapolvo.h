@@ -11,7 +11,7 @@ private:
 
 public:
 
-	Guardapolvo(string color, string size) : Clothes(color, size) { totalGuardapolvos++; }
+	Guardapolvo(Date date, string color, string size) : Clothes(date, color, size) { totalGuardapolvos++; }
 	~Guardapolvo() { totalGuardapolvos--; }
 
 	int GetTotalGuardapolvos() { return totalGuardapolvos; }

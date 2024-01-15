@@ -11,7 +11,7 @@ private:
 
 public:
 
-	Chaleco(string color, string size) : Clothes(color, size) { totalChalecos++; }
+	Chaleco(Date date, string color, string size) : Clothes(date, color, size) { totalChalecos++; }
 	~Chaleco() { totalChalecos--; }
 
 	int GetTotalChalecos() { return totalChalecos; }

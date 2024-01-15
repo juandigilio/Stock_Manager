@@ -11,7 +11,7 @@ private:
 
 public:
 
-	Casco(string color, string size) : Clothes(color, size) { totalCascos++; }
+	Casco(Date date, string color, string size) : Clothes(date, color, size) { totalCascos++; }
 	~Casco() { totalCascos--; }
 
 	int GetTotalCascos() { return totalCascos; }

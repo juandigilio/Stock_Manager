@@ -15,7 +15,7 @@ private:
 
 public:
 
-	FijaImperial(string brand, int numerator, int denominator) : LlaveFija(brand) { this->numerator = numerator; this->denominator = denominator; totalFijasImperiales++; }
+	FijaImperial(Date date, string brand, int numerator, int denominator) : LlaveFija(date, brand) { this->numerator = numerator; this->denominator = denominator; totalFijasImperiales++; }
 	~FijaImperial() { totalFijasImperiales--; }
 
 	int GetTotalFijasImperailes() { return totalFijasImperiales; }

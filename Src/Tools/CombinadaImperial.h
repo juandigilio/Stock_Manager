@@ -17,7 +17,7 @@ private:
 	
 public:
 
-	CombinadaImperial(string brand, int numerator1, int denominator1, int numerator2, int denominator2) : LlaveFija(brand) 
+	CombinadaImperial(Date date, string brand, int numerator1, int denominator1, int numerator2, int denominator2) : LlaveFija(date, brand)
 	{
 		this->numerator1 = numerator1; 
 		this->denominator1 = denominator1;
@@ -25,6 +25,7 @@ public:
 		this->denominator2 = denominator2;
 		totalComnbinadasImperiales++;
 	}
+
 	~CombinadaImperial() { totalComnbinadasImperiales--; }
 
 	int GetNumerator1() { return numerator1; }

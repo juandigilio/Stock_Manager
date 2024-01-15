@@ -84,6 +84,48 @@
     <ClInclude Include="Src\LlaveFija.h">
       <Filter>Header Files\Base</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Tools\CintaMetrica.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\Destornillador.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\GuanteCuero.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\GuanteTela.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\JuegoAllen.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\JuegoTorx.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\LlaveCanio.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\LlaveFrancesa.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\Martillo.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\Maza.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\Multimetro.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\Phillips.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\PinzaAmperometrica.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tools\Plano.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\main.cpp">

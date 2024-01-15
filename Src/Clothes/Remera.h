@@ -11,7 +11,7 @@ private:
 
 public:
 
-	Remera(string color, string size) : Clothes(color, size) { totalRemeras++; }
+	Remera(Date date, string color, string size) : Clothes(date, color, size) { totalRemeras++; }
 	~Remera() { totalRemeras--; }
 
 	int GetTotalRemeras() { return totalRemeras; }

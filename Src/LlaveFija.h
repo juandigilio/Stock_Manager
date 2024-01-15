@@ -12,15 +12,12 @@ private:
 
 protected:
 
-	string brand;
-
 
 public:
 
-	LlaveFija(string brand) { this->brand = brand; totalLlavesFijas++; }
+	LlaveFija(Date date, string brand) : Tool(date, brand) { totalLlavesFijas++; }
 	virtual ~LlaveFija() { totalLlavesFijas--; }
 
 	int GetTotalLlavesFijas() { return totalLlavesFijas; }
-	string GetBrand() { return brand; }
 };
 

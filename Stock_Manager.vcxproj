@@ -35,10 +35,24 @@
     <ClInclude Include="Src\LlaveFija.h" />
     <ClInclude Include="Src\Object.h" />
     <ClInclude Include="Src\Tool.h" />
+    <ClInclude Include="Src\Tools\CintaMetrica.h" />
     <ClInclude Include="Src\Tools\CombinadaImperial.h" />
     <ClInclude Include="Src\Tools\CombinadaMetrica.h" />
+    <ClInclude Include="Src\Tools\Destornillador.h" />
     <ClInclude Include="Src\Tools\FijaImperial.h" />
     <ClInclude Include="Src\Tools\FijaMetrica.h" />
+    <ClInclude Include="Src\Tools\GuanteCuero.h" />
+    <ClInclude Include="Src\Tools\GuanteTela.h" />
+    <ClInclude Include="Src\Tools\JuegoAllen.h" />
+    <ClInclude Include="Src\Tools\JuegoTorx.h" />
+    <ClInclude Include="Src\Tools\LlaveCanio.h" />
+    <ClInclude Include="Src\Tools\LlaveFrancesa.h" />
+    <ClInclude Include="Src\Tools\Martillo.h" />
+    <ClInclude Include="Src\Tools\Maza.h" />
+    <ClInclude Include="Src\Tools\Multimetro.h" />
+    <ClInclude Include="Src\Tools\Phillips.h" />
+    <ClInclude Include="Src\Tools\PinzaAmperometrica.h" />
+    <ClInclude Include="Src\Tools\Plano.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\main.cpp" />

@@ -13,7 +13,7 @@ private:
 
 public:
 
-	FijaMetrica(string brand, int size) : LlaveFija(brand) { this->size = size; totalFijasMetricas++; }
+	FijaMetrica(Date date, string brand, int size) : LlaveFija(date, brand) { this->size = size; totalFijasMetricas++; }
 	~FijaMetrica() { totalFijasMetricas--; }
 
 	int GetTotalFijasMetricas() { return totalFijasMetricas; }

@@ -11,7 +11,7 @@ private:
 
 public:
 
-	Delantal(string color, string size) : Clothes(color, size) { totalDelantales++; }
+	Delantal(Date date, string color, string size) : Clothes(date, color, size) { totalDelantales++; }
 	~Delantal() { totalDelantales--; }
 
 	int GetTotalDelantales() { return totalDelantales; }

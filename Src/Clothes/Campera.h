@@ -11,7 +11,7 @@ private:
 
 public:
 
-	Campera(string color, string size) : Clothes(color, size) { totalCamperas++; }
+	Campera(Date date, string color, string size) : Clothes(date, color, size) { totalCamperas++; }
 	~Campera() { totalCamperas--; }
 
 	int GetTotalCamperas() { return totalCamperas; }

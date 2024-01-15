@@ -11,7 +11,7 @@ private:
 
 public:
 
-	Buzo(string color, string size) : Clothes(color, size) { totalBuzos++; }
+	Buzo(Date date, string color, string size) : Clothes(date, color, size) { totalBuzos++; }
 	~Buzo() { totalBuzos--; }
 
 	int GetTotalBuzos() { return totalBuzos; }

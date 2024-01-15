@@ -11,7 +11,7 @@ private:
 
 public:
 
-	ZapatoSeguridad(string color, string size) : Clothes(color, size) { totalZapatosSeguridad++; }
+	ZapatoSeguridad(Date date, string color, string size) : Clothes(date, color, size) { totalZapatosSeguridad++; }
 	~ZapatoSeguridad() { totalZapatosSeguridad--; }
 
 	int GetTotalZapatosSeguridad() { return totalZapatosSeguridad; }

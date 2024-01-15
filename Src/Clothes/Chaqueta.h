@@ -12,7 +12,7 @@ private:
 
 public:
 
-	Chaqueta(string color, string size) : Clothes(color, size) { totalChaquetas++; }
+	Chaqueta(Date date, string color, string size) : Clothes(date, color, size) { totalChaquetas++; }
 	~Chaqueta() { totalChaquetas--; }
 
 	int GetTotalChaquetas() { return totalChaquetas; }

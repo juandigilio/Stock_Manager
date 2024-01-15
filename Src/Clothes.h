@@ -16,7 +16,7 @@ protected:
 
 public:
 
-	Clothes(string color, string size) : Object() { this->color = color; this->size = size; totalClothes++; }
+	Clothes(Date date, string color, string size) : Object(date) { this->color = color; this->size = size; totalClothes++; }
 	virtual ~Clothes() { totalClothes--; }
 
 	int GetTotalClothes() { return totalClothes; }

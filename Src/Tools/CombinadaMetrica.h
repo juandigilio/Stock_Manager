@@ -15,7 +15,7 @@ private:
 
 public:
 	
-	CombinadaMetrica(string brand, int size1, int size2) : LlaveFija(brand) { this->size1 = size1; this->size2 = size2; totalCombinadasMetricas++; }
+	CombinadaMetrica(Date date, string brand, int size1, int size2) : LlaveFija(date, brand) { this->size1 = size1; this->size2 = size2; totalCombinadasMetricas++; }
 	~CombinadaMetrica(){ totalCombinadasMetricas--; }
 
 	int GetTotalCombinadasMetricas() { return totalCombinadasMetricas; }
