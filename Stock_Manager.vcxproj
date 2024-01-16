@@ -19,9 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ProgramLogic.h" />
     <ClInclude Include="Src\Object.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ProgramLogic.cpp" />
     <ClCompile Include="Src\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

@@ -16,20 +16,20 @@
     <Filter Include="Header Files\Base">
       <UniqueIdentifier>{148a4b0d-ca71-447c-9e76-1a082d378556}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Clothes">
-      <UniqueIdentifier>{121c663c-bb4b-40ba-8665-2e74777b0f7e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Tools">
-      <UniqueIdentifier>{9f5fa50e-9517-4e7e-a857-76b6abb529da}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Object.h">
       <Filter>Header Files\Base</Filter>
     </ClInclude>
+    <ClInclude Include="ProgramLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramLogic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

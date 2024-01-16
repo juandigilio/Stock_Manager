@@ -15,85 +15,114 @@ enum class Type
 {
 	//clothes
 
-	GuardaPolvo,
-	Camisa,
-	Chaqueta, 
-	Pantalon,
-	Delantal, 
-	Campera,
-	Chaleco,
+	Botas,
 	Buzo,
+	Camisa,
+	Campera,
+	Cascos,
+	Chaleco,
+	Chaqueta, 
+	Delantal, 
+	GuardaPolvo,
+	Pantalon,
 	Remera,
 	ZapatosSeguridad,
-	Botas,
-	Cascos,
 
 	//tools
 
-	LlaveCombinadaMetrica,
-	LlaveCombinadaImperial,
-	LLaveFijaMetrica,
-	LLaveFijaImperial,
-	LLaveCanio,
-	LLaveFrancesa,
-	Masa,
-	Martillo,
-	JuegoAllen,
-	JuegoThorx,
-	DestornilladorPhillips,
-	DestornilladorPlano,
-	Multimetro,
-	PinzaAmperometrica,
-	CintaMetrica,
-	GuanteTela,
-	GuanteCuero,
-	SoldadoraElectrica,
-	SoldadorEstanio,
-	Taladro,
-	Percutor,
-	Rotopercutor,
-	Sensitiva,
+	Alicate,
 	AmoladoraGrande,
 	AmoladoraChica,
-	ArcoSierra,
-	Tenaza,
-	Pinza,
-	Alicate,
-	BuscaPolo,
-	Tijeras,
-	MascaraSoldar,
 	Antiparra,
-	PinzaFuerza,
-	LLaveDeTubo,
-	Tubo,
+	ArcoSierra,
+	BuscaPolo,
+	CintaMetrica,
 	CortaHierro,
-	Punta,
-	MechaHierro,
-	MechaWidia,
-	Electrodo,
-	ElectrodoInoxidable,
+	DestornilladorPhillips,
+	DestornilladorPlano,
 	DiscoCorte,
 	DiscoDesbaste,
-	DiscoSensitiva,
 	DiscoFlap,
+	DiscoSensitiva,
+	Electrodo,
+	ElectrodoInoxidable,
+	GuanteCuero,
+	GuanteTela,
+	JuegoAllen,
+	JuegoThorx,
+	LLaveCanio,
+	LlaveCombinadaMetrica,
+	LlaveCombinadaImperial,
+	LLaveDeTubo,
+	LLaveFijaImperial,
+	LLaveFijaMetrica,
+	LLaveFrancesa,
+	Martillo,
+	Masa,
+	MascaraSoldar,
+	MechaHierro,
+	MechaWidia,
+	Multimetro,
+	Percutor,
+	PiedraBanco,
+	Pinza,
+	PinzaAmperometrica,
+	PinzaFuerza,
+	Punta,
+	Rotopercutor,
+	SoldadoraElectrica,
+	Sensitiva,
+	SoldadorEstanio,
+	Taladro,
 	TaladroDeMesa,
-	PiedraBanco
+	Tenaza,
+	Tijeras,
+	Tubo,
+};
+
+enum class Color
+{
+	Rojo,
+	Blanco,
+	Negro,
+	Azul,
+	Amarillo, 
+	Naranja,
+	Verde,
+	Gris
 };
 
 class Object
 {
-protected:
+private:
 
 	Date date;
 	Type type;
+	string brand;
+	Color color;
+	string unit;
+	int size;
+	int size2;
+
 
 
 public:
 
-	Object(Date date, Type type) { this->date = date; this->type = type; }
+	Object(Date date, Type type, string brand) { this->date = date; this->type = type; this->brand = brand; }
 	~Object() {}
 
 	Date GetDate() { return date; }
 	Type GetType() { return type; }
+	string GetBrand() { return brand; }
+
+	void SetColor(Color color) { this->color = color; }
+	void SetUnit(string unit) { this->unit = unit; }
+	void SetSize(int size) { this->size = size; }
+	void SetSize2(int size2) { this->size2 = size2; }
+
+	Color GetColor() { return color; }
+	string GetUnit() { return unit; }
+	int GetSize() { return size; }
+	int GetSize2() { return size2; }
 };
 
