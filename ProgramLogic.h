@@ -4,6 +4,14 @@
 
 #include "Object.h"
 
+enum class CurrenScreen
+{
+	MAINMENU,
+	ADDITEM,
+	DELETEITEM,
+	EXIT
+};
+
 
 class ProgramLogic
 {

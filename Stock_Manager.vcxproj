@@ -19,10 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="MenuManager.h" />
     <ClInclude Include="ProgramLogic.h" />
     <ClInclude Include="Src\Object.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="MenuManager.cpp" />
     <ClCompile Include="ProgramLogic.cpp" />
     <ClCompile Include="Src\main.cpp" />
   </ItemGroup>
