@@ -1,6 +1,7 @@
 #pragma once
 
 #include <list>
+#include <vector>
 
 #include "Object.h"
 
@@ -17,7 +18,9 @@ class ProgramLogic
 {
 private:
 
-	list<Object>stock;
+	vector<Object> stock;
+
+	static int generalID;
 
 	int totalBotas{};
 	int totalBuzo{};
@@ -87,6 +90,9 @@ public:
 	ProgramLogic();
 	~ProgramLogic();
 
+	void AddItem();
+	Object DeleteItem(int id);
+
 	int GetTotalBotas() { return totalBotas; }
 	int GetTotalBuzo() { return totalBuzo; }
 	int GetTotalCamisa() { return totalCamisa; }
@@ -147,8 +153,5 @@ public:
 	int GetTotalTenaza() { return totalTenaza; }
 	int GetTotalTijeras() { return totalTijeras; }
 	int GetTotalTubo() { return totalTubo; }
-
-	void AddItem();
-	void DeleteItem();
 };
 

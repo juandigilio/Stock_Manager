@@ -64,5 +64,5 @@ void MenuManager::RunMenu()
 		EndDrawing();
 	}
 
-	UnloadTextures(player);
+	//UnloadTextures(player);
 }

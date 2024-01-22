@@ -1,15 +1,11 @@
 #pragma once
 
 #include <iostream>
+#include <ctime>
+
 
 using namespace std;
 
-struct Date
-{
-	int day;
-	int month;
-	int year;
-};
 
 enum class Type
 {
@@ -96,30 +92,30 @@ class Object
 {
 private:
 
-	Date date;
+	time_t date;
 	Type type;
 	string brand;
 	Color color;
 	string unit;
 	int size;
 	int size2;
-
+	int id;
 
 
 public:
 
-	Object(Date date, Type type, string brand) { this->date = date; this->type = type; this->brand = brand; }
-	~Object() {}
-
-	Date GetDate() { return date; }
-	Type GetType() { return type; }
-	string GetBrand() { return brand; }
+	Object(time_t date, Type type, string brand, int id) { this->date = date; this->type = type; this->brand = brand; this->id = id; }
+	~Object() { ; }
 
 	void SetColor(Color color) { this->color = color; }
 	void SetUnit(string unit) { this->unit = unit; }
 	void SetSize(int size) { this->size = size; }
 	void SetSize2(int size2) { this->size2 = size2; }
 
+	time_t GetDate() { return date; }
+	Type GetType() { return type; }
+	string GetBrand() { return brand; }
+	int GetID() { return id; }
 	Color GetColor() { return color; }
 	string GetUnit() { return unit; }
 	int GetSize() { return size; }
