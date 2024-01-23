@@ -90,7 +90,7 @@ public:
 	ProgramLogic();
 	~ProgramLogic();
 
-	void AddItem();
+	void AddItem(Type type, string brand, Color color, string unit, int size, int size2);
 	Object DeleteItem(int id);
 
 	int GetTotalBotas() { return totalBotas; }

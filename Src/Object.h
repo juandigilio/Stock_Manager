@@ -104,7 +104,10 @@ private:
 
 public:
 
-	Object(time_t date, Type type, string brand, int id) { this->date = date; this->type = type; this->brand = brand; this->id = id; }
+	Object(time_t date, Type type, string brand, int id, Color color, string unit, int size, int size2) 
+	{
+		this->date = date; this->type = type; this->brand = brand; this->id = id; this->color = color; this->unit = unit; this->size = size; this->size2 = size2;
+	}
 	~Object() { ; }
 
 	void SetColor(Color color) { this->color = color; }
